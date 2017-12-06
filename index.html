@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/new.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+		<title>Welcome to GOOGLE WAT ??</title>
+	</head>
+
+	<body>
+		<h1 class="mx-auto" id="title">Welcome To GOOGLE WAT (Erasmus  Experience)</h1>
+		<form id="myForm" class="mx-auto">
+
+			<div class="form-group mx-auto" id="myForm">
+				<label class="mx-auto" for="select-tipo">Seleccionar tipo</label>
+				<select class="custom-select mx-auto" id="select-tipo">
+					<option value='Todos' selected >Todos</option>
+					<option value='Profesorado'>Profesor</option>
+					<option value='Grado Superior'>Grado Superior</option>
+					<option value='Grado Medio'>Grado Medio</option>
+				</select>
+			</div>
+			<div class="form-group mx-auto">
+				<span> Ciclos </span>
+				<label id="switch">
+					<input type="checkbox" id="sliderCheck">
+					<span id="slider"></span>
+				</label>
+				<span> País </span>
+			</div>
+			<div class="form-group mx-auto" id="options">
+			</div>
+			<div class="form-group mx-auto">
+				<button type="button" class="btn btn-primary mx-auto" id="btSearch">BUSCAR</button>
+			</div>
+		</form>
+		<div id="googleMap"></div>
+	</body>
+
+
+	<script type="text/javascript" src="./js/U06T02.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHqpYFTvnjfNb5UNMj7wKJ-VqwjpZh0p0&callback=myMap">
+
+
+	</script>
+
+</html>
